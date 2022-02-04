@@ -1,0 +1,32 @@
+body{
+    background-color: black;
+    }
+    
+    p{
+        color:blueviolet;
+    }
+    body {
+        
+        background-color: black;
+        }
+    
+    div{
+        border: orange 5px solid;
+    }
+
+    h1,h2,h3,h4,h5,h6{
+    
+        color: cyan;
+    }
+
+    #title{
+        display:inline;
+    }
+
+    #container {
+        
+        width: 70%;
+        margin: 0 auto;
+        background-color: blueviolet;
+        
+        }

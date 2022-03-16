@@ -18,18 +18,14 @@ h1,h2,h3,h4,h5,h6{
 }
 
 #title{
-    display: inline-block;
-    font-size: 30px;
+
+    font-size: 52px;
     color: aqua;
     padding: 10px;
-    margin: 30px;
-    margin-left: 40px;
-    text-align: center;
+    margin: 10px;    
 }
 
-#container {        
-    width: 70%;
-    margin: 0 auto;
-    padding: 10px;
-    background-color: rgb(18, 4, 31);    
+#title-container{
+    display: inline-block;
+    margin-left: 31.5%;
 }

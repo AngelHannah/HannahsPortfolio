@@ -18,7 +18,8 @@
 }
 
 #left-column{
-    
+    display: grid;
+    grid-template-rows: auto auto auto auto;
 }
 
 #right-column{

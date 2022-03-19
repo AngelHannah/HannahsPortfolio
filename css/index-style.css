@@ -5,4 +5,17 @@ dt{
 
 .list-div{
     border: blue 2px dashed;
+    margin: 10px;
+    padding: 10px;
+}
+
+.column-title-container{
+    border: none;
+    display: inline-block;
+    height: 60%;
+}
+
+.column-title{
+    font-size: 20px;
+    text-align: center;
 }

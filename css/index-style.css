@@ -1,6 +1,6 @@
 dt{
     font-size: 30px;
-    color: cyan;
+    color: black;
 }
 
 .list-div{
@@ -18,4 +18,9 @@ dt{
 .column-title{
     font-size: 20px;
     text-align: center;
+}
+
+.opaque-container{
+    background-color: whitesmoke;
+    opacity: 0.6;
 }

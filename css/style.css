@@ -3,24 +3,24 @@ body{
     }
     
 p{
-    color:cyan;
+    color:black;
 }
 body {        
     background-color: black;
 }
     
 div{
-    border: orange 5px solid;
+    border: blueviolet 5px solid;
 }
 
 h1,h2,h3,h4,h5,h6{    
-    color: cyan;
+    color: black;
 }
 
 #title{
 
     font-size: 52px;
-    color: aqua;
+    color: black;
     padding: 10px;
     margin: 10px;    
 }

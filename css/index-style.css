@@ -20,7 +20,8 @@ dt{
     text-align: center;
 }
 
-.opaque-container{
-    background-color: whitesmoke;
-    opacity: 0.6;
+.project-link-container{
+    border: blue dashed 3px;
+    margin-bottom: 5%;
 }
+

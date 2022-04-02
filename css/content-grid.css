@@ -10,10 +10,11 @@
     grid-template-columns: 18% 60% 18% ;
     column-width: 30px;
     gap: 2%;
-    height: 1000px;
+    height: 1200px;
     width: 70%;
     margin: 0 auto;
     padding: 10px;
+    background: rgba(247, 247, 247, 0.3)
 }
 
 #left-column{

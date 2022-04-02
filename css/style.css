@@ -4,6 +4,7 @@ body{
     
 p{
     color:black;
+    font-size: 20px;
 }
 body {        
     background-color: black;
@@ -29,4 +30,6 @@ h1,h2,h3,h4,h5,h6{
     display: inline-block;
     margin-left: 31.5%;
     margin-bottom: 10px;
+    background: rgba(247, 247, 247, 0.3)
 }
+

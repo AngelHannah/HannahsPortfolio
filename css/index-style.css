@@ -4,7 +4,7 @@ dt{
 }
 
 .list-div{
-    border: blue 2px dashed;
+    border: yellow 2px dashed;
     margin: 10px;
     padding: 10px;
 }
@@ -12,7 +12,7 @@ dt{
 .column-title-container{
     border: none;
     display: inline-block;
-    height: 60%;
+    
 }
 
 .column-title{
@@ -21,7 +21,7 @@ dt{
 }
 
 .project-link-container{
-    border: blue dashed 3px;
+    border: yellow dashed 3px;
     text-align: center;
     margin-bottom: 5%;
     margin-left: 3%;

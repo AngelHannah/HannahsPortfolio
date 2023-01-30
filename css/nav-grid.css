@@ -8,7 +8,7 @@
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     text-align: center;
     padding: 10px;
-    background-color: blueviolet;
+    border: 1px solid black;
     text-decoration: none;
     font-size: 1.2em;
     color: black;
@@ -16,8 +16,8 @@
 }
 
 a:hover {
-    background-color: dimgray;
-    color: white;
+    background-color: whitesmoke;
+    color: dimgrey;
 }
 
 p, h1, h2, h3, h4, h5 , h6 {

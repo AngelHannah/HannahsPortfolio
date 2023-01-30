@@ -11,7 +11,7 @@ body {
 }
     
 div{
-    border: blueviolet 5px solid;
+    border: black 5px solid;
 }
 
 h1,h2,h3,h4,h5,h6{    
@@ -19,17 +19,16 @@ h1,h2,h3,h4,h5,h6{
 }
 
 #title{
-
     font-size: 52px;
+    text-align: center;
     color: black;
     padding: 10px;
     margin: 10px;    
 }
 
 #title-container{
-    display: inline-block;
-    margin-right: 10%;
-    margin-left: 22%;
+    margin: auto;
+    width: 50%;
     margin-bottom: 10px;
     background: rgba(247, 247, 247, 0.3)
 }

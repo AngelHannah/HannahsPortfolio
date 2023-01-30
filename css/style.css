@@ -28,7 +28,8 @@ h1,h2,h3,h4,h5,h6{
 
 #title-container{
     display: inline-block;
-    margin-left: 31.5%;
+    margin-right: 10%;
+    margin-left: 22%;
     margin-bottom: 10px;
     background: rgba(247, 247, 247, 0.3)
 }

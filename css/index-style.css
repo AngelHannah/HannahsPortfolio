@@ -11,12 +11,15 @@ dt{
 }
 
 .project-title-container{
-    border: none;
-    display: inline-block; 
+    border: none; 
 }
 
 .project-section-title{
     font-size: 20px;
+    text-align: center;
+}
+
+.project-section-description{
     text-align: center;
 }
 

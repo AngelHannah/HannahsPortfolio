@@ -1,5 +1,8 @@
 .project-card-container{
-    display: flexbox;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
 
 .project-card{

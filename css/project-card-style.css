@@ -1,0 +1,38 @@
+.project-card-container{
+    display: flexbox;
+}
+
+.project-card{
+    width: 300px;
+    background: rgba(247, 247, 247, 0.3);
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: box-shadow 0.3s ease;
+}
+
+.card:hover{
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.project-card-title{
+    color: #000000;
+    padding: 16px;
+    font-size: 1.25em;
+    text-align: center;
+}
+
+.project-card-image{
+    width: 100%;
+    display: block;
+    text-align: center;
+}
+
+.project-card-content{
+    padding: 16px;
+}
+
+.project-card-content p{
+    margin: 0;
+}

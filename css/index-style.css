@@ -4,27 +4,21 @@ dt{
 }
 
 .list-div{
-    border: yellow 2px dashed;
+    border: white 2px dashed;
+    border-radius: 30px;
     margin: 10px;
     padding: 10px;
 }
 
-.column-title-container{
+.project-title-container{
     border: none;
-    display: inline-block;
-    
+    display: inline-block; 
 }
 
-.column-title{
+.project-section-title{
     font-size: 20px;
     text-align: center;
 }
 
-.project-link-container{
-    border: yellow dashed 3px;
-    text-align: center;
-    margin-bottom: 5%;
-    margin-left: 3%;
-    margin-right: 3%;
-}
+
 

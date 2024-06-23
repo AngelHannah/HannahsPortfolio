@@ -1,18 +1,18 @@
 * { 
     padding: 0px;
     margin: 0px;
-    box-sizing: border-box;
+    
 }
 
 #container{
-    display: grid;
-    grid-template-columns: 18% 60% 18% ;
-    column-width: 30px;
+    display: flexbox;
     gap: 2%;
-    height: 150%;
+    height: 100vmax;
     width: 80%;
     margin: 0 auto;
     padding: 10px;
+    border: black 5px solid;
+    border-radius: 30px;
     background: rgba(247, 247, 247, 0.3)
 }
 

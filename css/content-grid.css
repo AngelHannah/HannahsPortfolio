@@ -1,5 +1,4 @@
-* {
-
+* { 
     padding: 0px;
     margin: 0px;
     box-sizing: border-box;
@@ -15,16 +14,5 @@
     margin: 0 auto;
     padding: 10px;
     background: rgba(247, 247, 247, 0.3)
-}
-
-#left-column{
-    display: grid;
-    height: auto;
-    grid-template-rows: repeat(4, 25%);
-}
-
-#right-column{
-    height: auto;
-    width: 100%;
 }
 

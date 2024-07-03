@@ -6,7 +6,7 @@
 }
 
 .project-card{
-    width: 300px;
+    max-width: 300px;
     background: rgba(247, 247, 247, 0.3);
     border: 1px solid #ccc;
     border-radius: 8px;

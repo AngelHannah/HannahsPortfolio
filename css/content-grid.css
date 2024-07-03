@@ -7,9 +7,9 @@
 #container{
     display: flexbox;
     gap: 2%;
-    height: 100vmax;
-    width: 80%;
-    margin: 0 auto;
+    min-height: 100%;
+    max-width: 80%;
+    margin-inline: auto;
     padding: 10px;
     border: black 5px solid;
     border-radius: 30px;

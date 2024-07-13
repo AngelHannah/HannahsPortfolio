@@ -5,7 +5,7 @@
     --header-font-weight: font-weight: 300;
     --header-font-style: font-style: normal;
 
-    /*  */
+
     
 }
 
@@ -25,6 +25,10 @@ h1,h2,h3,h4,h5,h6{
 dt{
     font-size: 30px;
     color: black;
+    font-family: var(--header-font);
+    font-optical-sizing: var(--header-font-optisize);
+    font-weight: var(--header-font-weight);
+    font-style: var(--header-font-style);
 }
 
 .list-div{
@@ -36,7 +40,7 @@ dt{
 
 /* Title section */
 #title{
-    font-size: 52px;
+    font-size: 3.5em;
     text-align: center;
     font-family: var(--header-font);
     font-optical-sizing: var(--header-font-optisize);
@@ -75,13 +79,26 @@ dt{
     height: 300px;
 }
 
+#aboutme-title-container{
+    border: none; 
+}
+
+#aboutme-section-title{
+    font-size: 1.75em;
+    text-align: center;
+    font-family: var(--header-font);
+    font-optical-sizing: var(--header-font-optisize);
+    font-weight: var(--header-font-weight);
+    font-style: var(--header-font-style);
+}
+
 /* Project Section */
 .project-title-container{
     border: none; 
 }
 
 .project-section-title{
-    font-size: 20px;
+    font-size: 1.75em;
     text-align: center;
     font-family: var(--header-font);
     font-optical-sizing: var(--header-font-optisize);

@@ -1,3 +1,12 @@
+:root{
+    --header-text: {
+        font-family: "Montserrat", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 300;
+        font-style: normal;
+      }
+}
+
 body{
     background-color: black;
 }
@@ -23,9 +32,11 @@ dt{
     padding: 10px;
 }
 
+/* Title section */
 #title{
     font-size: 52px;
     text-align: center;
+    font: var(--header-text);
     color: black;
     padding: 10px;
     margin: 10px;    
@@ -40,6 +51,14 @@ dt{
     background: rgba(247, 247, 247, 0.3)
 }
 
+#Welcome3D-container{
+    margin: auto;
+    max-width: 60%;
+    min-height: 10%;
+}
+
+
+/* About Me section */
 #aboutme-section{
     display: flex;
     flex-direction: row;
@@ -51,6 +70,7 @@ dt{
     height: 300px;
 }
 
+/* Project Section */
 .project-title-container{
     border: none; 
 }

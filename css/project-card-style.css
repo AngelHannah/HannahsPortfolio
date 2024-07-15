@@ -43,4 +43,8 @@
 
 .project-card-content p{
     margin: 0;
+    font-family: var(--body-font);
+    font-optical-sizing: var(--body-font-optisize);
+    font-weight: var(--body-font-weight);
+    font-style: var(--body-font-style);
 }

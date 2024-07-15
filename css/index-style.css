@@ -5,8 +5,12 @@
     --header-font-weight: font-weight: 300;
     --header-font-style: font-style: normal;
 
-
-    
+    /* Body font variables */
+    --body-font: "Open Sans", sans-serif;
+    --body-font-optisize: font-optical-sizing: auto;
+    --body-font-weight: font-weight: 300;
+    --body-font-style: font-style: normal;
+    --body-font-vari: font-variation-settings: "wdth": 100;
 }
 
 body{
@@ -71,6 +75,11 @@ dt{
 #aboutme-section{
     display: flex;
     flex-direction: row;
+    font-family: var(--body-font);
+    font-optical-sizing: var(--body-font-optisize);
+    font-weight: var(--body-font-weight);
+    font-style: var(--body-font-style);
+
 }
 
 #aboutme-img{
@@ -108,9 +117,19 @@ dt{
 
 .project-section-description{
     text-align: center;
+    font-family: var(--body-font);
+    font-optical-sizing: var(--body-font-optisize);
+    font-weight: var(--body-font-weight);
+    font-style: var(--body-font-style);
 }
 
-
+/* Interests Section */
+.interests-section-paragraph{
+    font-family: var(--body-font);
+    font-optical-sizing: var(--body-font-optisize);
+    font-weight: var(--body-font-weight);
+    font-style: var(--body-font-style);
+}
 
 
 

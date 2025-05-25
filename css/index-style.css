@@ -82,6 +82,15 @@ dt{
 
 }
 
+#aboutme-img-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    max-width: 50%;
+    min-height: 10%;
+}
+
 #aboutme-img{
     display: block;
     width: 300px;

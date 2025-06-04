@@ -1,0 +1,42 @@
+.tech-icons-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 18px;
+  justify-content: center;
+}
+
+.tech-icon {
+  width: 90px;
+  height: 110px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: rgba(247, 247, 247, 0.3);
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 8px 0 0 0;
+  font-size: 1em;
+  color: #222;
+  font-family: var(--body-font, 'Open Sans', sans-serif);
+}
+
+.tech-icon img {
+  width: 60px;
+  height: 60px;
+  object-fit: contain;
+  display: block;
+  margin-bottom: 6px;
+}
+
+.tech-icon div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.tech-icon br {
+  display: none;
+}

@@ -82,14 +82,26 @@ dt{
 
 }
 
+#aboutme-img-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    max-width: 50%;
+    min-height: 10%;
+    height: 100%;
+}
+
 #aboutme-img{
     display: block;
     width: 300px;
     height: 300px;
+    border-radius: 20px;
+    object-fit: cover;
 }
 
 #aboutme-title-container{
-    border: none; 
+    border: none;
 }
 
 #aboutme-section-title{
@@ -124,7 +136,7 @@ dt{
 }
 
 /* Interests Section */
-.interests-section-paragraph{
+.techstack-section-paragraph{
     font-family: var(--body-font);
     font-optical-sizing: var(--body-font-optisize);
     font-weight: var(--body-font-weight);
